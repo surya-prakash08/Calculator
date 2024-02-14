@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: gray;
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 11lh;
+   
+}
+.button:hover{
+    
+
+        color: white;
+        box-shadow: 0 0 5px green, 0 0 23px green, 0 0 50px green, 0 0 200px green;
+        font-weight: bold;
+    
+}
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    font-weight: bold;
+    margin: 0;
+    padding: 9px 38px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(216, 216, 45, 0.839);
+
+}
+
+body h3{
+    text-align: center;
+    color: purple;
+}
